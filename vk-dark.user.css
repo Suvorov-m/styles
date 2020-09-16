@@ -8199,6 +8199,41 @@
 .videoplayer_controls_item {
     color:#fff ;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[dir] .top_notify_header .top_notify_header_label .top_notify_header_label_groups_counter.unmuted {
+    background-color: #ff724c;
+    color: white;
+}
+[dir] .notifications_new_events {
+    background: #373b3e;
+}
+.notifications_new_events {
+    color: #fff;
+}
+.nim-dialog .nim-dialog--unread {
+    color: #fff;
+}
+[dir] .ProfileEditorVkconnect__notice {
+    background-color: #494d50;
+}
 }
 
 @-moz-document url-prefix("https://vk.com/widget_comments"), url-prefix("http://vk.com/widget_comments") {
