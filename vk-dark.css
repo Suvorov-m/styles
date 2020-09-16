@@ -1,3 +1,11 @@
+/* ==UserStyle==
+@name           Redesign VK Dark Theme
+@namespace      https://github.com/Suvorov-m/styles
+@version        1.1.1
+@description    Dark Theme for VK
+@author         Suvorov Mikhail
+@homepageURL    https://vk.com/vk.darktheme
+==/UserStyle== */
 @-moz-document regexp("https?://vk.com/(?!(ads\\\\?|adsmarket\\\\?|adscreate\\b|support|faq(\\n*|\\\\?)|messenger\\b|biz(\\b|/)|business-pages\\b|business-ads\\b|services\\b|about|jobs|products|blog|store_vkpay\\b|away.php\\\\?to\\b)).*") {
 :root {
 	--white: #373b3e;
