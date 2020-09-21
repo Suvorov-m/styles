@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Redesign VK Dark Theme
 @namespace      https://github.com/Suvorov-m/styles
-@version        1.1.2
+@version        1.1.3
 @description    Dark Theme for VK
 @author         Suvorov Mikhail
 @homepageURL    https://vk.com/vk.darktheme
@@ -298,6 +298,181 @@
     [dir] .deep_active .replies .replies_wrap_deep .reply_box_inner_wrap .reply_fakebox, [dir] .deep_active .wl_replies_block_wrap .replies_wrap_deep .reply_box_inner_wrap .reply_fakebox, [dir] .deep_active.wall_module .replies .replies_wrap_deep .reply_box_inner_wrap .reply_fakebox, [dir] .deep_active.wall_module .wl_replies_block_wrap .replies_wrap_deep .reply_box_inner_wrap .reply_fakebox {
         padding: 5px 9px 7px;
         border-color: #484b4e;
+    }
+    [dir] .VideoRestriction__boxWrap {
+        background-color: #494d50;
+    }
+    [dir] .VideoPlaylistItem__thumbWrap {
+        background-color: #494d50;
+    }
+    [dir] .bookmark_link.no_cover .bookmark_link__image {
+        background-color: #494d50!important;
+    }
+    [dir] .audio_pl_item2 .audio_pl__cover,
+    [dir] .audio_pl_snippet2 .audio_pl_snippet__cover{
+        background-color: #282b2f;
+    }
+    [dir] .VideosFeedTitle {
+    background-color: #373b3e;
+    box-shadow: 0 1px 0 0 #373b3e, 0 0 0 1px #484B4E;
+    }
+    [dir] .ShortVideoPost {
+        background-color: #373b3e;
+        box-shadow: 0 1px 0 0 #484B4E, 0 0 0 1px #484B4E;
+    }
+    [dir] .ShortVideoPage .page_block_h2 {
+        box-shadow: 0 1px 0 0 #484B4E, 0 0 0 1px #484B4E;
+    }
+    .ShortVideoStub__text,
+    .ShortVideoStub__title{
+        color: #b9b9b9;
+    }
+    [dir] .ShortVideoStub__link {
+        background-color: #494d50;
+    }
+    [dir] .ShortVideoStub__qrLink {
+        border-color: #484b4e;
+    }
+    [dir] .ShortVideoStub__qrLink:hover {
+        background-color: #494d50;
+        border-color: #494d50;
+    }
+    [dir] .ShortVideoStub__link:hover {
+        background-color: #5b5e61;
+    }
+    [dir] .ShortVideoPage__container--empty {
+        padding: 20px;
+        background-color: #373b3e;
+        box-shadow: 0 1px 0 0 #494d50, 0 0 0 1px #494d50;
+    }
+    [dir] .ShortVideoPage__placeholderIcon,
+    [dir] .ShortVideoGrid__placeholderIcon{
+        filter: opacity(0.5);
+        -webkit-filter: opacity(0.5);
+    }
+    [dir] .MarketCatalogHeader {
+        background-color: #373B3E;
+    }
+    [dir] .PageBlock {
+        background-color: #373B3E;
+        box-shadow: 0 1px 0 0 #494D50, 0 0 0 1px #494D50;
+    }
+    [dir] .MarketCatalogTabs {
+        background-color: #373b3e;
+        box-shadow: 0 0 0 1px #494d50;
+    }
+    .MarketCatalogBlockKeyMessages__itemDescription,
+    .MarketCatalogBlockSlider__title{
+        color: #f1f1f1;
+    }
+    [dir=ltr] .MarketCatalogCity,
+    [dir] .MarketCatalogHeader__row+.MarketCatalogHeader__row,
+    [dir=ltr] .MarketCatalogHeader__menu{
+        border-color: #494d50;
+    }
+    [dir] .MarketCatalogGroup {
+        border-color: #494d50;
+    }
+    [dir] .MarketCatalogBlockButtons {
+        border-top-color: #494d50;
+    }
+    [dir] .MarketCatalogBlockButtons__link:hover {
+        background-color: #494D50;
+    }
+    .MarketCatalogProduct__price {
+        color: #ABD99A;
+    }
+    [dir] .MarketCatalogBreadcrumbs {
+        background-color: #373b3e;
+        box-shadow: 0 0 0 1px #494d50;
+    }
+    .MarketCatalogBreadcrumbs__current {
+        color: #fff;
+    }
+    [dir] .MarketCatalogCategoryMenu__list {
+        background-color: #373b3e;
+        border-color:  #494d50;
+        box-shadow: 0 5px 10px rgb(0 0 0 / 60%);
+    }
+    [dir=ltr] .MarketCatalogCategoryMenu__rootCategories {
+        border-right-color: #494d50;
+    }
+    [dir] .MarketCatalogCategoryMenu__rootCategory--active {
+        background-color: #494D50;
+    }
+    [dir] .MarketCatalogCategoryMenu--opened .MarketCatalogCategoryMenu__button:after {
+        background-color: #373b3e;
+        border-top-color: #494d50;
+    }
+    [dir=ltr] .MarketCatalogCategoryMenu--opened .MarketCatalogCategoryMenu__button:after {
+        border-left-color: #494d50;
+    }
+    [dir] .MarketCatalogBlockList {
+        background-color: #373b3e;
+    }
+    [dir] .MarketCatalogSkeleton__block {
+        background-color: #373b3e;
+        box-shadow: 0 1px 0 0 #494d50, 0 0 0 1px #494d50;
+    }
+    [dir] .MarketCatalogSkeleton__element {
+        background-color: #494d50;
+    }
+    [dir=ltr] .MarketCatalogSkeleton__block:after {
+        background: linear-gradient(130deg,transparent 40%,rgb(73 77 80),transparent 60%) no-repeat -800px 0;
+    }
+    [dir] .MarketCatalogBlockList--orders .MarketCatalogBlockList__title,
+    [dir] .MarketCatalogBlockList__ordersEmptyPlaceholder{
+        background-color: #373b3e;
+        border-color: #494d50;
+    }
+    [dir] .MarketCatalogRightMenu {
+        background-color: #373b3e;
+        box-shadow: 0 1px 0 0 #494d50, 0 0 0 1px #494d50;
+    }
+    [dir] .MarketCatalogRightMenu__item:hover {
+        background-color: #494d50;
+    }
+    .MarketCatalogBlockList__ordersEmptyPlaceholderTitle,
+    .MarketCatalogBlockList__title,
+    .MarketCatalogBlockList__favoriteEmptyPlaceholderTitle{
+        color: #f1f1f1;
+    }
+    [dir] .market_ei_photo_add {
+        background-color: #494d50;
+    }
+    [dir] .market_ei_photo_add:hover {
+        background-color: #54595d;
+    }
+    [dir] .MarketCatalogBlockMyProducts {
+        background-color: #373b3e;
+        border-color: #494d50;
+    }
+    .MarketCatalogBlockMyProducts__title {
+        color: #fff;
+    }
+    [dir] .MarketCatalogRightMenu__item--active {
+        background-color: #494d50;
+    }
+    [dir] .MarketCatalogBlockShops__itemFooter:before {
+        background-color: #494d50;
+    }
+    [dir] .ModalFooter {
+        border-color: #494d50;
+        background-color: #373b3e;
+    }
+    [dir] .Select__input:focus {
+        border-color: #494d50;
+    }
+    .Select--secondary .Select__option {
+        color: #f1f1f1;
+    }
+    [dir] .CitySelectItemLabel--bordered:after {
+        background-color: #484b4e;
+    }
+    [dir] .MarketCatalogFilter__container {
+        background-color: #373b3e;
+        border-color: #494d50;
+        box-shadow: 0 1px 3px rgb(0 0 0 / 0.60);
     }
 }
 
