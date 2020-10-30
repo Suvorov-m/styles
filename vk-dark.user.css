@@ -564,6 +564,12 @@
     [dir] #submit_post_box:not(.shown):not(.own_field) .poster__open-btn-wrapper::before {
         background-color: #484b4e;
     }
+    [dir] .poster__open-btn-wrapper::before {
+        background-color: #484b4e;
+    }
+    .media_selector .ms_items_more .ms_item {
+        color: #fff;
+    }
 }
 
 @-moz-document url-prefix("https://vk.com/widget_comments"), url-prefix("http://vk.com/widget_comments") {
