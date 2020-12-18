@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name           Redesign VK Dark Theme
 @namespace      https://github.com/Suvorov-m/styles
-@version        1.1.5
+@version        1.1.6
 @description    Dark Theme for VK
 @author         Suvorov Mikhail
 @homepageURL    https://vk.com/vk.darktheme
@@ -574,6 +574,80 @@
     .media_selector .ms_items_more .ms_item {
         color: #fff;
     }
+    
+    
+    
+    
+    body.new_header_design #side_bar .left_label {
+    color: #fff;
+}
+[dir] body.new_header_design .left_count_wrap {
+    background-color: #494d50;
+}
+
+[dir] body.new_header_design .ts_cont_wrap {
+    border-color: #484b4e;
+}
+
+/*==============================
+            TOP PANEL
+==============================*/
+[dir] body.new_header_design #page_header_cont {
+    background-color: #4A76A8;
+    border-bottom-color: #4A76A8;
+}
+[dir] body.new_header_design .p_head_l0 .top_home_link .top_home_logo, [dir] body.new_header_design .p_head_l97 .top_home_link .top_home_logo, [dir] body.new_header_design .p_head_l114 .top_home_link .top_home_logo, [dir] body.new_header_design .p_head_l1 .top_home_link .top_home_logo, [dir] body.new_header_design.ny_2020_logo .p_head_l0 .top_home_link .top_home_logo, [dir] body.new_header_design.ny_2020_logo .p_head_l97 .top_home_link .top_home_logo, [dir] body.new_header_design.ny_2020_logo .p_head_l114 .top_home_link .top_home_logo, [dir] body.new_header_design.ny_2020_logo .p_head_l1 .top_home_link .top_home_logo {
+    background-image: url(https://vk.suvorov.cc/content/logo.svg);
+}
+[dir] body.new_header_design .top_nav_btn#top_notify_btn .top_nav_btn_icon {
+    background-image: url(https://vk.suvorov.cc/content/bell.svg);
+}
+[dir] body.new_header_design .TopSearch__input {
+    background-repeat: no-repeat;
+}
+body.new_header_design .top_nav_link {
+    color: #fff;
+}
+body.new_header_design .TopSearch__input::placeholder, body.new_header_design .TopSearch .input_back_content {
+    color: #86A1BF;
+}
+[dir] body.new_header_design .top_nav_link:hover, [dir] body.new_header_design .top_nav_btn:hover, [dir] body.new_header_design .top_audio_player:hover{
+    background-color: #5C84B1;
+}
+body.new_header_design .top_audio_player_title,
+body.new_header_design .top_audio_player:hover .top_audio_player_title{
+    color: #BFCFE0;
+}
+[dir] body.new_header_design .top_audio_player_prev .top_audio_player_btn_icon {
+    background-image: url(https://vk.suvorov.cc/content/arrow_l.svg);
+}
+[dir] body.new_header_design .top_audio_player_play .top_audio_player_btn_icon {
+    background-image: url(https://vk.suvorov.cc/content/play.svg);
+}
+[dir] body.new_header_design .top_audio_player_next .top_audio_player_btn_icon {
+    background-image: url(https://vk.suvorov.cc/content/arrow_r.svg);
+}
+/*==============================
+            SCROLLBAR
+==============================*/
+::-webkit-scrollbar {
+    width: 10px;border: none;
+}
+[dir] ::-webkit-scrollbar-track {
+    background: #373B3E;
+    border: solid 1px #494d50;
+}
+[dir] ::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #7c7f82;
+    border: solid 1px #494d50;
+}
+[dir] body::-webkit-scrollbar {
+    background:#4A76A8;
+}
+[dir] body::-webkit-scrollbar-track {
+    margin-top:49px;
+}
 }
 
 @-moz-document url-prefix("https://vk.com/widget_comments"), url-prefix("http://vk.com/widget_comments") {
