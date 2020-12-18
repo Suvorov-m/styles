@@ -630,6 +630,15 @@ body.new_header_design .top_audio_player:hover .top_audio_player_title{
 [dir] body.new_header_design .top_nav_btn .top_notify_count {
     border-color: #4a76a8;
 }
+[dir] body.new_header_design .top_audio_player_playing .top_audio_player_play .top_audio_player_btn_icon{
+    background-image: url(https://vk.suvorov.cc/content/pause.svg);
+}
+[dir] body.new_header_design .top_nav_btn.active {
+    background-color: #5C84B1;
+}
+[dir] body.new_header_design .top_nav_link.active {
+    background-color: #5C84B1;
+}
 /*==============================
             SCROLLBAR
 ==============================*/
