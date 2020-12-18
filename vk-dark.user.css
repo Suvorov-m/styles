@@ -627,6 +627,9 @@ body.new_header_design .top_audio_player:hover .top_audio_player_title{
 [dir] body.new_header_design .top_audio_player_next .top_audio_player_btn_icon {
     background-image: url(https://vk.suvorov.cc/content/arrow_r.svg);
 }
+[dir] body.new_header_design .top_nav_btn .top_notify_count {
+    border-color: #4a76a8;
+}
 /*==============================
             SCROLLBAR
 ==============================*/
